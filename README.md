@@ -1,16 +1,16 @@
 # PHP-login
-A simple login Web App with SESSIONS and Password hash made with PHP, MySQL, phpMyAdmin and Bootstrap.
+Un sistema simple de logueo para una applicacion Web con sesiones y el uso de hash para las contraseñas que hace uso de PHP, MySQL, phpMyAdmin y Bootstrap
 
-How to use it?
+¿Como usarlo?
 
-1. Open XAMPP dashboard.
-2. Click phpMyAdmin on the menu.
-3. Create a new database "PHPLogin".
-4. Create table "users" with 4 fields (Id, Name, Email, Password).
-5. Download or clone this repo.
-6. Put "PHPLogin" folder inside your "xampp" folder.
-7. Open your browser and type "localhost:8080/PHPLogin"
-8. Enter the account info and press "Create my account" button.
+1. Abre el panel de control de XAMPP.
+2. Carga phpMyAdmin.
+3. Crea una base de datos "PHPLogin".
+4. Crea un tabla "users" con 4 campos (Id, Name, Email, Password).
+5. Descarga y clona este repositorio.
+6. Pon la carpeta "PHPLogin" dentro de la carpeta "xampp".
+7. Abre un pestaña del navegador y escribe "localhost:8080/PHPLogin"
+8. Entre la informacion de una cuentea y presione el boton "Create my account".
 9. Check if the info. is correct on the database and if the password is a hash.
 10. Go back to your browser and click "Login"
 11. Enter the email and password you use when created your account and click login.
