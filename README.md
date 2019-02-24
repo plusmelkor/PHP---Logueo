@@ -45,3 +45,8 @@ Nota06.- Archivo scss: formato sass
 Nota07.- CND - Content Delivery Network - Una Content Delivery Network (CDN o, en español, una “Red de distribución de contenido”) es un conjunto de servidores que contienen copias de una misma serie de contenidos (imágenes, vídeos, documentos, …)
 
 Nota08.- https://uniwebsidad.com/libros/bootstrap-3/
+
+Nota09.- login.hmtl requiere un css adicional que se encuentra. 
+<link rel="stylesheet" href="css/custom.css">
+<img src="images/php-mysql-logo.png" class="img-responsive" alt="PHP MySQL logos">
+
