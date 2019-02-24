@@ -24,7 +24,7 @@ Nota02.- http://php.net/manual/es/security.hiding.php
 		a.- ya sea a traves de una directiva de .htaccess
 		b.- el archivo de configuracion de Apache
 
-		Extension de ficheros engañosos o utilizar extensiones conocidas. El interprete PHP considera estos archivos como archivos PHP.
+Extension de ficheros engañosos o utilizar extensiones conocidas. El interprete PHP considera estos archivos como archivos PHP.
 
 Nota03.- Para que sirve .htaccess?
 ¿Qué puede hacer exactamente .htaccess?
