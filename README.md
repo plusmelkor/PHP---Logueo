@@ -50,3 +50,26 @@ Nota09.- login.hmtl requiere un css adicional que se encuentra.
 <link rel="stylesheet" href="css/custom.css">
 <img src="images/php-mysql-logo.png" class="img-responsive" alt="PHP MySQL logos">
 
+Nota10.-  
+class="container-fluid"
+ class="row"
+  class="col-lg-12" - Una sola fila y una sola columna
+
+   class="card" - clase hecha a medida - custom 
+   class="loginBox" - las caracteristicas visuales de este div estan determinadas por su padre, es decir, card
+
+Nota11.-
+class = "form-group" : Para optimizar el espaciado, utiliza la clase .form-group para encerrar cada campo de formulario con su <label>.
+
+Nota12.-
+PHP 4 PHP 5 PHP 7
+session_start — Comienza una sesion nueva y reanuda una sesion existente.
+
+Nota13.-
+password_verify — Comprueba que la contraseña coincida con un hash
+
+Nota14.- Algoritmo Blowfish
+
+Nota15.- Los arrays asociativos son arrays cuyos keys son strings con valores personalizados. Un array asociativo puede llevar también valores numéricos.
+
+Nota16.- Una sesion es una forma de guardar informacion (en variables) a ser usada a traves de multiples paginas. No es como una cookie, la informacion no es guardada en la computadora del usuario.
