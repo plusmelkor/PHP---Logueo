@@ -73,3 +73,8 @@ Nota14.- Algoritmo Blowfish
 Nota15.- Los arrays asociativos son arrays cuyos keys son strings con valores personalizados. Un array asociativo puede llevar también valores numéricos.
 
 Nota16.- Una sesion es una forma de guardar informacion (en variables) a ser usada a traves de multiples paginas. No es como una cookie, la informacion no es guardada en la computadora del usuario.
+
+Nota17.- Uno de los principales dificultades o detalles que pueden ocasionar un error en el nombre en la creacion de la base de datos y la tabla de usuarios para que el sistema de usuarios sea operativa. 
+create-db01.php - con el nombre introducido en el cuadro de texto crea una base de datos. Hace uso de conn.php
+create-db02.php - el nombre de la base de datos esta incluida en la variable: $dbname
+create-db03.php - el nombre de la tabla y las columnas a ser creadas
