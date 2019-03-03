@@ -78,3 +78,7 @@ Nota17.- Uno de los principales dificultades o detalles que pueden ocasionar un 
 create-db01.php - con el nombre introducido en el cuadro de texto crea una base de datos. Hace uso de conn.php
 create-db02.php - el nombre de la base de datos esta incluida en la variable: $dbname
 create-db03.php - el nombre de la tabla y las columnas a ser creadas
+
+Nota18.- Es conveniente que un sistema de usuarios tenga categorias diferentes de usuario. Esto permite que diversos usuarios tengan diversos privilegios.
+
+Nota19.- ¿Cual es la razon del sintaxis de esta instrucción: $conn->query($sql)?
