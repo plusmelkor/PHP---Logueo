@@ -85,7 +85,35 @@ Nota19.- ¿Cual es la razon del sintaxis de esta instrucción: $conn->query($sql
 El operador de objeto -> es usada en el ambito del objeto para acceder a sus metodos y propiedades.
 $conn es un objeto y query es un metodo
 
-Nota20.- En create-04.php consideramos a las bases de datos como objetos y hacemos uso de los metodos de esta clase de
+Nota20.- En create-db04.php consideramos a las bases de datos como objetos y hacemos uso de los metodos de esta clase de
 objetos con el operador ->, creando una base de datos y una tabla dentro de esta.
 
 Nota21.- Version de PHP Version 7.2.10
+
+Nota22.- INT o INTEGER son 4 Bytes = 256e4
+
+Tipo de dato	Bytes	Valor mínimo	Valor máximo
+
+TINYINT			1		0				255
+SMALLINT		2		0				65535
+MEDIUMINT		3		0				16777215
+INT o INTEGER	4		0				4294967295
+BIGINT			8		0				18446744073709551615
+
+Elegimos en la columna Atributos el valor de UNSIGNED y este campo ya no podrá contener valores negativos, duplicando su capacidad de almacenamiento.
+
+Note23.- Restricción NOT NULL de SQL
+Por defecto, una columna puede guardar valores NULOS.
+La restricción NOT NULL fuerza a una columna a no aceptar valores NULOS.
+Esto fuerza a que un campo contenga siempre un valor, lo que significa que puedes insertar un nuevo registro, o actualizarlo sin agregar un valor a este campo.
+
+Note24.- MySQL usa la palabra reservada AUTO_INCREMENT para activar la caracteristica de auto incremento.
+Por defecto, el valor inicial para AUTO_INCREMENT es 1, e incrementara en 1 con cada nuevo registro.
+Para modificara el valor inicial de AUTO_INCREMENT, se usa el siguiente comando SQL: AUTO_INCREMENT=100.
+
+Nota25.- El archivo create-db04.php implementa los detalles tratados en las Notas: 22, 23 y 24.
+
+ 
+
+
+
