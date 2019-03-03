@@ -82,3 +82,10 @@ create-db03.php - el nombre de la tabla y las columnas a ser creadas
 Nota18.- Es conveniente que un sistema de usuarios tenga categorias diferentes de usuario. Esto permite que diversos usuarios tengan diversos privilegios.
 
 Nota19.- ¿Cual es la razon del sintaxis de esta instrucción: $conn->query($sql)?
+El operador de objeto -> es usada en el ambito del objeto para acceder a sus metodos y propiedades.
+$conn es un objeto y query es un metodo
+
+Nota20.- En create-04.php consideramos a las bases de datos como objetos y hacemos uso de los metodos de esta clase de
+objetos con el operador ->, creando una base de datos y una tabla dentro de esta.
+
+Nota21.- Version de PHP Version 7.2.10
