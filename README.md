@@ -113,7 +113,14 @@ Para modificara el valor inicial de AUTO_INCREMENT, se usa el siguiente comando 
 
 Nota25.- El archivo create-db06.php implementa los detalles tratados en las Notas: 22, 23 y 24.
 
-Nota26.- En create-db07.php implementamos el tipo de usuario como una columna en la tabla de usuarios de la basa de datos.
+Nota26.- En create-db07.php implementamos el tipo de usuario como una columna en la tabla de usuarios de la Base de datos.
+			Schedule
+			--------
+		 	01: Creacion de Base de Datos - Nombre
+			02: Creacion de Tabla - Nombre de la Tabla
+			03: Creacion de Cinco Columnas - Nombres de Columna Especifico
+			04: Codigo ubicado en el servidor
+
 
 
 
