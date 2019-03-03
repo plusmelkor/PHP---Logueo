@@ -111,9 +111,10 @@ Note24.- MySQL usa la palabra reservada AUTO_INCREMENT para activar la caracteri
 Por defecto, el valor inicial para AUTO_INCREMENT es 1, e incrementara en 1 con cada nuevo registro.
 Para modificara el valor inicial de AUTO_INCREMENT, se usa el siguiente comando SQL: AUTO_INCREMENT=100.
 
-Nota25.- El archivo create-db04.php implementa los detalles tratados en las Notas: 22, 23 y 24.
+Nota25.- El archivo create-db06.php implementa los detalles tratados en las Notas: 22, 23 y 24.
 
- 
+Nota26.- En create-db07.php implementamos el tipo de usuario como una columna en la tabla de usuarios de la basa de datos.
+
 
 
 
