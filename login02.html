@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Pagina de logueo - Usuario Regular</title>
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/login01.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="login-page">
+  <div class="form">
+    <form class="register-form" action="create-account.php" method="post">
+      <input type="text" name="name" placeholder="name" required/>
+      <input type="text" name="email" placeholder="email address" required/>
+      <input type="password" name="password" placeholder="password" required/>
+      <button type="submit">create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" action="check-login.php" method="post">
+      <input type="text" name="email" placeholder="email" required/>
+      <input type="password" name="password" placeholder="password" required/>
+      <button type="submit">login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="js/login01.js"></script>
+</html>

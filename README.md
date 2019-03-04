@@ -123,6 +123,9 @@ Nota26.- En create-db07.php implementamos el tipo de usuario como una columna en
 
 Nota27.- login01.js necesita jQuery. Sin este se produce un error en la consola.
 
+Nota28.- login02.html hace operativo todo lo relativo a la creacion de una cuenta y el logueo.
+
+
 
 
 
