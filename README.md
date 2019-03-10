@@ -125,7 +125,7 @@ Nota27.- login01.js necesita jQuery. Sin este se produce un error en la consola.
 
 Nota28.- login02.html hace operativo todo lo relativo a la creacion de una cuenta y el logueo.
 
-Nota29.- Que es Amazon Lightsail? Es un Servicion de AWS. Un VPS: o servidor virtual privado, es una partición virtual dentro de un servidor físico. Este método le permite a cada partición individual el uso exclusivo los recursos que le hayan sido asignados.
+Nota29.- Que es Amazon Lightsail? Es un Servicio de AWS. Un VPS: o servidor virtual privado, es una partición virtual dentro de un servidor físico. Este método le permite a cada partición individual el uso exclusivo los recursos que le hayan sido asignados.
 LAMP
 -------------
 Linux
@@ -137,6 +137,37 @@ Nota30.- Que es SSH? Que es  PuTTY?
 https://es.wikipedia.org/wiki/Secure_Shell
 SSH es un servicio semejate a TELNET
 Comando SCP
+Use FileZila para subir los archivos al servidor virtual.
 
+Nota31.- Amazon VPC es la capa de red de Amazon EC2. Capacidad de computación escalable. 
+	1.- Entornos informáticos virtuales, conocidos como instancias
+	2.- Imágenes de máquina de Amazon (AMI)
+	3.- Tipos de instancias
+	4.- Pares de claves (AWS almacena la clave pública y usted guarda la clave privada en un lugar seguro)
+	5.- Amazon Elastic Block Store (Amazon EBS), conocidos como volúmenes de Amazon EBS
+	6.- Grupos de seguridad
+	7.- Redes virtuales que puede crear que están aisladas lógicamente del resto de la nube de AWS y que, opcionalmente, puede conectar a su propia red, conocidas como nubes privadas virtuales (VPC)
 
+Nota32.- ¿Como subir una aplicacion a una instancia Amazon EC2 para ser ejecutada en dicha instancia?
+Computacion en la nube.
 
+Note33.- Entorno = Instancia en terminologia AWS
+Ejecutar base de datos MySQL
+Conexion con su base de datos
+Eliminacion de la base de datos
+Amazon Relational Database Service - Amazon RDS
+Capa Gratuita
+Consola de administración de AWS
+MySQL Workbench
+Paso 1: crear una instancia de base de datos MySQL
+ - Instancia de base de datos de clase db.t2.micro
+ - 5 GB de almacenamiento
+ - Backups automatizados activados con un periodo de retención de un día
+Launch DB Instance
+Seleccionar que Base de Datos
+Opción MySQL en Dev/Test
+Acceso público: Elija Yes. Se asignará una dirección IP para su instancia de base de datos de forma que pueda conectarse directamente a la base de datos desde su propio dispositivo
+MySQL Workbench
+bdprueba.cr4gqgzuhzdg.us-east-1.rds.amazonaws.com
+La conexion es a traves del Endpoint por medio de un clente de BD
+Necesitamos la direccion del servidor/usuario/contraseña
