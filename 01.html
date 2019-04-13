@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Desplegable Superior</title>
+	<link rel="stylesheet" type="text/css" href="css/01.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="parte01">
+		Hola
+	</div>
+	<div id="parte02">
+		<form>
+			<input type="text" name="prueba">
+			<button>boton</button>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+  		$("#parte01").click(function(){
+    		$("#parte01").animate({height:"toggle"},"fast");
+    		$("#parte02").animate({height:"100px"},"fast");
+    		$("#parte02 form").show();
+  });
+});
+</script>
+</html>

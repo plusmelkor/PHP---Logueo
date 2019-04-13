@@ -171,3 +171,36 @@ MySQL Workbench
 bdprueba.cr4gqgzuhzdg.us-east-1.rds.amazonaws.com
 La conexion es a traves del Endpoint por medio de un clente de BD
 Necesitamos la direccion del servidor/usuario/contraseña
+
+Nota34.- Red privada virtual (VPN): permite a los usuarios acceder a una red privada a través de una red pública como si estuvieran conectados directamente a esa red privada. 
+Razones para una red.
+ - Compartir recursos por ejemplo almacenamiento
+ - Acceso a Base de Datos en una PC
+ - Acceso a un servidor web que se encuentra en una PC de la red
+¿Bajo que protocolos se consigue acceder a una Base de Datos en una red TCP/IP?
+Motor de base de datos
+Si tiene previsto conectarse a Motor de base de datos desde otro equipo, debe habilitar un protocolo, como TCP/IP. Es decir, las consultas a la base de datos se realizan a traves del protocolo TCP/IP, que es un protocolo de red. Igualmente que el protocolo HTTP para acceder a un servidor web esta sobre el protocolo TCP/IP.
+
+HTTP <- TCP/IP
+DB <- TCP/IP
+
+CLIENTE HTTP --> SERVIDOR HTTP (AMAZON Lightsail) --> SERVIDOR DB
+CLIENTE DB --> SERVIDOR DB (AMAZON RDB)
+
+Note35.- jQuery animate() - Manipula Multiples Propiedades
+El metodo de JQuery animate() es usado para crear animaciones personalizadas. 
+
+$(selector).animate({parametros},velocidad,callback);
+
+Los parametros definen las propiedades CSS a ser animadas.
+El parametro velociddad especifica la duracion del efecto. Puede tomar los siguentes valores: "slow", "fast", o milisegundos.
+El parametro callback es una funcion a ser ejecutada despues que la animacion se completa.
+De manera predeterminada, todos los elementos HTML tienen una posicion static, y no pueden ser movidos.
+Para manipulara la posicion, hay que recordar primero que la propiedad posicion CSS del elemento a mover debe ser relative, fixed o absolute.
+Se pueden concatenar animaciones.
+
+Note36.-
+SVG es por Scalable Vector Graphics. Define graficos vectoriales en formato XML.
+Ejemplo: https://codepen.io/ladyjellington/pen/vPrNjY
+
+Fork : Bifurcación

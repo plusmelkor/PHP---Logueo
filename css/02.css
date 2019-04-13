@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background: white;
+}
+
+.contenedor_max{
+	background: lightgray;
+	margin:auto;
+	width: 960px;
+	height: 150px;
+}
+
+.contenedor{
+	margin:auto;
+	position: relative;
+	z-index: 1;
+	width: 100px;
+	height: 100px;
+}
+
+.c01{
+	background: red;
+	position: absolute;
+	z-index: 3;
+}
+
+.c02{
+	background: green;
+	position: absolute;
+	z-index: 2;
+}

@@ -1,0 +1,32 @@
+Nota1.- Atributo de idioma. Si se estable en una etiqueta lo heradan todos sus hijos. Si se establece en la etiqueta html es el idioma de toda la pagina.
+Tome en cuenta que debe usar el elemento html y no el elemento body, dado que body no cubre el texto que está dentro del elemento head del documento.
+lang=es
+
+Nota2.- Juego de caracteres. <meta charset="UTF-8">
+
+Nota3.- JQuery a traves de un CDN.
+
+Nota4.- 
+1 división
+1 forma dentro de otro division
+La segunda division comienza con una altura de cero pixeles. Y la forma lleva el display como none.
+
+Nota5.- Como creamos divisiones una encima de la otra? De tal manera que si desaparece una se pueda observar la de abajo. Esta divisiones podrian ser formularios, logrado efectos interesantes.
+
+transition: property duration timing-function delay|initial|inherit;
+function delay = funcion de retraso
+Es la funcion con la transición se comporta durante de tiempo de ejecucion.
+En el login04.css anulamos la transicion aplica sobre los botones del formulario.
+
+div class = "login-page"
+	div class = "form"
+
+De manera predetermina las divisiones son elementos de bloque y ocupan todo el ancho disponible.
+
+Si la propiedad margin tiene tres valores:
+
+margin: 10px 5px 15px;
+	top margin es 10px
+	right and left margins son 5px
+	bottom margin es 15px
+

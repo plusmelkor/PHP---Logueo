@@ -1,0 +1,179 @@
+Ruby on Rails
+-------------
+Nota01.- Temporarily enhancing PATH for MSYS/MINGW
+MSYS es una colección de utilitarios tal como bash, make, gawk y grep para permitir la construccion de aplicaciones que dependen de tradicionalmente herramientas Unix para ser presentadas.
+
+Nota02.- Aparentemente Rails funciona mejor en Linux
+
+Nota03.- RailsInstaller http://railsinstaller.org/en
+Se produce el mismo error con sqlite3 y dice que hay que instalar sqlite desde su pagina www.sqlite.org
+gem install bundler
+
+Nota04.- https://www.youtube.com/watch?v=hfa3RWQqFoQ
+Guia de supervivencia para instalar Ruby on Rails en Windows
+Considerar preparer una PC en Linux
+
+Nota05.- RubyInstaller es una herramienta para instalar Ruby en un sistema Windows.
+
+Nota06.- El comando ruby -v nos muestra la version de Ruby instalada.
+
+Nota07.- Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-0de53d8956e8dcf80 (64-bit x86) / ami-06b382aba6c5a4f2c (64-bit Arm)
+Amazon Linux 2 comes with five years support. It provides Linux kernel 4.14 tuned for optimal performance on Amazon EC2, systemd 219, GCC 7.3, Glibc 2.26, Binutils 2.29.1, and the latest software packages through extras.
+
+Instalacion de Ruby en la instancia con SSH. RVM.
+ssh -i AmazonLinux.pem ec2-user@ec2-107-21-199-179.compute-1.amazonaws.com
+Corrimos un par de aplicaciones Ruby en la instancia.
+
+Nota08.- Hay un problema constanta al generar un nuevo proyecto siempre tenemos problemas con sqlite3. Usamos la instruccion rails new <<Project Name>> -d mysql. Al avanzar en al estudio de Rails vemos que esta basado en
+la arquitectura MVC. Hay controladores, vistas y modelo.
+Lógica de negocio es la parte de un sistema que se encarga de codificar las reglas de negocio.
+Reglas del Negocio:
+---------------------
+Describe las políticas, normas, operaciones, definiciones y restricciones presentes en una organización y que son de vital importancia para alcanzar los objetivos misionales.
+
+http://heim.ifi.uio.no/~trygver/
+
+Nota09.- Smalltalk
+
+Note10.- 
+https://web.archive.org/web/20120429161935/http://st-www.cs.illinois.edu/users/smarch/st-docs/mvc.html
+
+"En el paradigma MVC la entrada de usuario, el modelado del mundo externo y la retroalimentacion visual entregada al usuario estan especialmente separadas y manejadas por tres tipos de objetos, cada uno especializado
+en su proposito. La Vista maneja la salida grafica y/o de texto hacia la matriz de bits que en memoria se encargan de su presentacion(pantalla o otro dispositivo).
+El Controlador intrepreta las entradas del mouse y el teclado realizadas por el usuario, gestionando el cambio adecuado del modelo y/o la vista. Finalmente, el modelo administra el comportamiento y los datos del dominio de la aplicación, responde a las solicitudes de informacion sobre su estado (generalmente de la Vista), y responde a las instrucciones de cambio de estado (generalmente del Controlador)."
+Originalmente por lo que se puede leer se postulaba la creacion para Smalltalk-80 de los siguiente objetos abstractos: Vista, Controlador, Modelo y Objeto. "El comportamiento del MVC es entonces heredado, aumentado y modificado como se necesite para proveer un sistema poderoso y flexible"
+
+En implementaciones supuestamente de MVC como en Angular que son realmente las Vistas? Los archivos html? Evidentemente no puede ser el rendirizado en el browser debido a que los controladore detras de renderizado son otros. Pero bajo este concepto tambien podriamos usar el paradigma MVC para programar en PHP donde la vistas son los archivos html orginados en por los script PHP, que serian los Controladores y el Modelo la Base de Datos.
+Angular en ese contexto no seria un gran avance. Tendrian sentido frases como Renderizado de la Vista. Y el que hace esto es Browser. En una aplicacion angular que calcule los grados centigrador a apartir de una entrada de un usuario en grados fahrenheit solo necesito que la entrada se realice por intermedio de una Vista, esta se comunique con un Controlador y modifique la Vista original o se genere una nueva Vista con la salida.
+
+Tipo A
+-------
+Intancia Nueva Vista V1
+Instancia Nueva Controlador C1 de V1
+salida <- C1 <- V1 <- entrada
+V1 <- salida
+
+Tipo B
+-------
+Intancia Nueva Vista V1
+Instancia Nueva Controlador C1 de V1
+salida <- C1 <- V1 <- entrada
+Intancia Nueva Vista V2 segun salida
+
+Para que sirve, entonces, Angular? Cual es su ventaja real? Solo puede ser por el reflejo automatico que hay entre las modificaciones que hay a la entrada de la Vista y la salida en la Vista o las modificaciones que hay en el Modelo y que manera automatica se ven reflejadas en la Vista. Esto implica habria un contralador que realiza esta funcion? Habria diversos tipos de Controladores? 
+
+Controladores de Logica de Negocio
+Contraladores de Alto Nivel
+Controladores de Gestion de Vista
+Controladores de Bajo Nivel
+????
+
+Un Controlador que calcule los grados Centrigrados a traves de la entrada en grados Fahrenheit en un cuadro de texto de un formulario y dicha salida se refleje en la Vista, entonces dicho Controlador debe ser heredado del Controlador de Gestion de Vista? O el Controlador que hace el calculo debe intervenir en el Controlador de Gestion de Vista?
+
+Nota11.- 
+https://docs.angularjs.org/guide/databinding
+
+"El Data-binding en aplicaciones AngularJS es la sincronizacion automatica entre el Modelo y la Vista. La forma en que AngularJS implementa el data-binding lo que nos permite tratar el Modelo con la Unica-Fuente-de-Verdad en la aplicacion. La vista es una proyeccion del Modelo siempre. Cuando el Modelo cambia, la Vista refleja el cambio y viceversa".
+
+De haber un Controlador de Gestion de Vista que haga posible el Data-binding. En el caso de un calculo de un valor de salida que tiene que ser procesado a partir de un valor de entrada: el Contrador de Gestion de Vista debe ser modificado para incluir dicho calculo? O Crear un Modelo y un Controlador para modificar dicho Modelo segun la entrada y el Controlador de Gestion de Vista se encarga del Data-binding?
+
+"Data Binding en Sistemas de Plantillas Clasicos"
+"La mayoria de sistemas el data binding es en solo una direccion: unen plantilla y Modelo juntos en una Vista. Despues de que la union ocurre, los cambios en el Modelo o en secciones relacionadad de la Vista no son automaticamente reflejjas en al Vista. Y peor, cualquier cambio que el Usuario hace a la vista no se reflejan en el Modelo. Esto significa que el desarrollador tiene que escribit codigo que constantemente sinconiza la Vista con el Modelo y el Modelo con la Vista."
+A esto se podria llamar Controlador de Gestion de Vista? Esa seria la ventaja de AngularJS? No tener que preocuparse del desarrollo del Controlador de Gestion de Vista? Pero este Controlador tambien debe Gestionar el Modelo? Seria un Controlador de Gestion MV Modelo-Vista?
+
+AngularJS template = Plantilla de AngularJS, cual es la relacion con la Vista? Plantilla = Template es HTML (con agregados y directivas adicionales) no compilado. Que tipo de compilacion es esta?
+Es compilado en el Browser. Como?
+"Siendo la Vista una proyeccion del Modelo, el Controlador es completamente separado de la Vista y no tiene por funcion actuar sobre ella."
+
+El Controlador de AngularJS no tiene por funcion Gestionar la relacion Modelo Vista.
+
+Nota12.- El Controlador de AngularJS es un Controlador del modelo MVC en el estricto sentido de lo que se define como un Controlador MVC?
+
+Trygve Reenskaug
+10 December 1979
+"Un Controlador es el enlace entre le usuario y el sistema. Provee al usuario con la entrada a traves de vistas organizadas presentadas en lugares apropiados de la pantalla. Provee significado para la salida del usuario presentando al usuario menus o otras formas significativas que le permitan dar comandos y datos. El Controlador recibe la salidad del usuario, las traduce en los mensajes apropiados y pasa estos mensajes a uno o mas de las vistas".
+... views of nodes
+"Una Vista no sabe de la entrada del usuario, tal como las operaciones del mouse o de las teclas. Siempre deberia ser posible escribir un metodo en el controlador que envie mensajes a las vistas que exactamente reproduzca cualquier secuencia de comandos del usuario".
+
+http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html
+
+"Jim Althoff y otros implementaaron una version de MVC para la libreria de clases del Smalltalk-80 despues que deje Xerox PARC, ... Jim Althoff usa el termino Controlador de manera diferenta a mi. Un importante aspecto del original MVC fue que sus Controlador era responsable de crear y coordinar con vistas subordinadas. Tambien, en mis posteriores implementaciones de MVC, una vista acepta y maneja las entradas del usario relevantes para si misma. El Controlador acepta maneja las entradas relvantes para el par Controlador/vista como un todo, ahora llamada Herramienta".
+Controlador/Vista = Tool (Herramienta)
+
+https://docs.angularjs.org/guide/controller
+
+In AngularJS, a Controller is defined by a JavaScript constructor function that is used to augment the AngularJS Scope.
+
+En AngularJS, un Controlador esta definido por una funcion constructora JavaScript que es usada para aumentar el Scope(Ambito) de AngularJS.
+
+$scope es un objeto
+
+Nota13.- Angular CLI. Es una interface de linea de comandos usado para inicializar, desarrollar y mantener aplicaciones Angular. Puedes usar la herramienta directamente en una consola o indirectamente en un interactivo IU tal como Angular Consola.
+17-03-2019 Instalamos Angular Consola
+17-03-2019 Angular Consola necesita Node.js
+17-03-2019 Instalamos Node.js
+17-03-2019 Que es npm? manejador de paquetes para node.js. Como gem para ruby? O como rvm : ruby version manager.
+17-03-2019 Usando Angular Consola creamos una aplicación Angular y nos hace recordar una aplicación Ruby and Rails. 
+rails server == ng server --open
+
+Nota14.- AngularJS
+Los Controladores AngularJS pueden estar ligados al DOM de diversas formas. Para cada una de ella, AngularJS generara una instancia del objeto Controlador AngularJS, usando la funcion constructor del Controlador AngularJS:
+	- Las directiva ngController. Un nuevo scope hijo se creará y hara disponible como un parametro inyectable a la funcion constructora del Controlador AngularJS como $scope.
+	- Un Controlador route en una definicion $route.
+	- EL controlador de una directiva regular, o una directiva de componentes.
+En general, un Controlador AngularJS no deberia de tratar de hacer mucho. It debe contener la logica del negocia de una simple vista.
+
+Nota15.- Realizamos una instalacion de Ruby on Rails e inicialmente nos salio el mismo error. Cuando ponemos
+sqlite3 --version
+3.8.7.2 2014-11-18 20:57:56 2ab564bf9655b7c7b97ab85cafc8a48329b27f93
+En una PC donde se siguio la instalacion para windows que se recomienda en https://rubyonrails.org/ y ejecuta la instuccion: rails server en al carpeta que contiene el site.
+En al PC que segui las instrucciones de rubyperu no se logro ejecutar la instruccion rails server. Dicho pagina es del 2012.
+La Doctrina de Rails.
+
+app/
+Contiene los controladores(controllers), modelos(models), vistas(views), helpers, mailers, canales, trabajos(jobs) y assets(recursos) de tu aplicacion. 
+
+bin/
+Contiene el script rails que comienza tu aplicacion y puede contener otros scripts que usas para el setup, la actualizacion, el despliegue o la ejecucion de la aplicacion.
+
+config/
+Configura las rutas de la aplicacion, base de datos y mas. Esto es cubierto en mas detalle en "Configurando Aplicacioness Rails".
+
+config.ru
+Configuraciones para Rack para ser usadas en servidores basados en Rack usados para comenzar la aplicacion. Para mas informacion sobre Rack consultar en la pagina web Rack.
+
+db/
+Contiene tu esquema de base de datos, asi como las migraciones de bases de datos.
+
+Gemfile
+Gemfile.lock
+Estos archivos te permiten especificas que gemas son necesarias para para aplicacion de Rails. Estos archivos som usados por la gema Bundlet. Para mas informacion sobre Bundler, revisa la pagina web Bundler.
+
+lib/
+Modulos Extendidos para tu aplicación.
+
+log/
+Directorio donde se guardan los logs de la aplicacion.
+
+package.json
+Este archivo te permite especificar que dependencia son necesarias para la aplicacion Rails. Esta archiva es usada por Yarn. Para mas informacion sobre Yarn, revisa la pagina web Yarn.
+
+public/
+El unico directorio visto por el mundo tal con es. Contiene archivos estaticos y recursos complidos.
+
+Rakefile	This file locates and loads tasks that can be run from the command line. The task definitions are defined throughout the components of Rails. Rather than changing Rakefile, you should add your own tasks by adding files to the lib/tasks directory of your application.
+README.md	This is a brief instruction manual for your application. You should edit this file to tell others what your application does, how to set it up, and so on.
+test/	Unit tests, fixtures, and other test apparatus. These are covered in Testing Rails Applications.
+tmp/	Temporary files (like cache and pid files).
+vendor/	A place for all third-party code. In a typical Rails application this includes vendored gems.
+.gitignore	This file tells git which files (or patterns) it should ignore. See GitHub - Ignoring files for more info about ignoring files.
+.ruby-version	This file contains the default Ruby version.
+
+Nota16.- La jugada 37 - Machine Learning
+
+
+
+
+
+
+
