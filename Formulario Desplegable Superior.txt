@@ -23,10 +23,16 @@ div class = "login-page"
 
 De manera predetermina las divisiones son elementos de bloque y ocupan todo el ancho disponible.
 
-Si la propiedad margin tiene tres valores:
+A.- Si la propiedad margin tiene tres valores:
 
 margin: 10px 5px 15px;
 	top margin es 10px
 	right and left margins son 5px
 	bottom margin es 15px
+
+B.- Si la propiedad margin tiene tres valores:
+
+margin: 10px 5px;
+	top and bottom margins son 10px
+	right and left margins son 5px
 
