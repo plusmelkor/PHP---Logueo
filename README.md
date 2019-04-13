@@ -127,8 +127,7 @@ Nota28.- login02.html hace operativo todo lo relativo a la creacion de una cuent
 
 Nota29.- Que es Amazon Lightsail? Es un Servicio de AWS. Un VPS: o servidor virtual privado, es una partición virtual dentro de un servidor físico. Este método le permite a cada partición individual el uso exclusivo los recursos que le hayan sido asignados.
 
-LAMP
---
+#LAMP
 Linux
 Apache
 MySQL/MariaDB
@@ -152,7 +151,7 @@ Nota31.- Amazon VPC es la capa de red de Amazon EC2. Capacidad de computación e
 Nota32.- ¿Como subir una aplicacion a una instancia Amazon EC2 para ser ejecutada en dicha instancia?
 Computacion en la nube.
 
-Note33.- Entorno = Instancia en terminologia AWS
+Nota33.- Entorno = Instancia en terminologia AWS
 Ejecutar base de datos MySQL
 Conexion con su base de datos
 Eliminacion de la base de datos
@@ -188,7 +187,7 @@ DB <- TCP/IP
 CLIENTE HTTP --> SERVIDOR HTTP (AMAZON Lightsail) --> SERVIDOR DB
 CLIENTE DB --> SERVIDOR DB (AMAZON RDB)
 
-Note35.- jQuery animate() - Manipula Multiples Propiedades
+Nota35.- jQuery animate() - Manipula Multiples Propiedades
 El metodo de JQuery animate() es usado para crear animaciones personalizadas. 
 
 $(selector).animate({parametros},velocidad,callback);
@@ -200,8 +199,13 @@ De manera predeterminada, todos los elementos HTML tienen una posicion static, y
 Para manipulara la posicion, hay que recordar primero que la propiedad posicion CSS del elemento a mover debe ser relative, fixed o absolute.
 Se pueden concatenar animaciones.
 
-Note36.-
+Nota36.-
 SVG es por Scalable Vector Graphics. Define graficos vectoriales en formato XML.
 Ejemplo: https://codepen.io/ladyjellington/pen/vPrNjY
 
 Fork : Bifurcación
+
+Note37.- Archivo con extensión MD: Markdown Documentación Archivos. Archivos de MD se clasifican como archivos de desarrolladores en su mayoría utilizados por Markdown, una gran herramienta para convertir archivos de texto a versiones HTML para que los usuarios pueden crear archivos que son fáciles de leer y escribir.
+Markdown: Leguaje de marcado ligero.
+https://daringfireball.net/
+https://daringfireball.net/projects/markdown/
