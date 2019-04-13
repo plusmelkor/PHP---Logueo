@@ -128,7 +128,7 @@ Nota28.- login02.html hace operativo todo lo relativo a la creacion de una cuent
 Nota29.- Que es Amazon Lightsail? Es un Servicio de AWS. Un VPS: o servidor virtual privado, es una partición virtual dentro de un servidor físico. Este método le permite a cada partición individual el uso exclusivo los recursos que le hayan sido asignados.
 
 LAMP
--------------
+--
 Linux
 Apache
 MySQL/MariaDB
