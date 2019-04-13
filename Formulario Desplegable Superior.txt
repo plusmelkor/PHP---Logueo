@@ -1,4 +1,4 @@
-Nota1.- Atributo de idioma. Si se estable en una etiqueta lo heradan todos sus hijos. Si se establece en la etiqueta html es el idioma de toda la pagina.
+Nota1.- Atributo de idioma. Si se establece en una etiqueta lo heradan todos sus hijos. Si se establece en la etiqueta html es el idioma de toda la pagina.
 Tome en cuenta que debe usar el elemento html y no el elemento body, dado que body no cubre el texto que está dentro del elemento head del documento.
 lang=es
 
