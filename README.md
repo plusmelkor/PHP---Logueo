@@ -101,7 +101,6 @@ Nota22.- INT o INTEGER son 4 Bytes = 256e4
 <tr><td>INT o INTEGER</td><td>4</td><td>0</td><td>4294967295</tr>
 <tr><td>BIGINT</td><td>8</td><td>0</td><td>18446744073709551615</tr>
 </table>
--------------------------
 
 Elegimos en la columna Atributos el valor de UNSIGNED y este campo ya no podrá contener valores negativos, duplicando su capacidad de almacenamiento.
 
