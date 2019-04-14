@@ -131,10 +131,10 @@ Nota29.- Que es Amazon Lightsail? Es un Servicio de AWS. Un VPS: o servidor virt
 
 LAMP
 ===
-Linux
-Apache
-MySQL/MariaDB
-PHP
+- Linux
+- Apache
+- MySQL/MariaDB
+- PHP
 
 Nota30.- Que es SSH? Que es  PuTTY?
 https://es.wikipedia.org/wiki/Secure_Shell
