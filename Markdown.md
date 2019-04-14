@@ -10,8 +10,18 @@ La meta principal del formato Markdown es hacer que sea lo mas legible posible. 
 
 La mejor forma es comprender la sintaxis Markdown es ver en un documento formatedo segun Markdown. Por ejemplo,
 puedes ver el original texto Markdown para el texto del articulo en esta pagina aqui: http://daringfireball.net/projects/markdown/index.text
+
 (Puedes usar el sufijo '.text' para poder ver la fuente del texto Markdown para el contenido de las paginas en esta seccion)
 
 Markdown es un software libre, disponible bajo una licencia estilo BSD.
 
 Nota 01.- Markdown 1.0.1 [Download](http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip)
+
+Nota 02.- Perl es un lenguaje de propósito general originalmente desarrollado para la manipulación de texto y que ahora es utilizado para un amplio rango de tareas incluyendo administración de sistemas, desarrollo web, programación en red, desarrollo de GUI y más.
+
+Nota 03.- Padre. the Perl IDE/editor
+
+Nota 04.- 
+Schedule
+--------
+1. Padre. Descarga e instalación de Padre.
