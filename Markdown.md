@@ -14,4 +14,4 @@ puedes ver el original texto Markdown para el texto del articulo en esta pagina 
 
 Markdown es un software libre, disponible bajo una licencia estilo BSD.
 
-Nota 01.- Markdown 1.0.1 [Download][http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip]
+Nota 01.- Markdown 1.0.1 [Download](http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip)
