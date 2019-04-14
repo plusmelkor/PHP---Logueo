@@ -162,7 +162,8 @@ Amazon Relational Database Service - Amazon RDS
 Capa Gratuita
 Consola de administración de AWS
 MySQL Workbench
-Paso 1: crear una instancia de base de datos MySQL
+Paso 1:
+ - crear una instancia de base de datos MySQL
  - Instancia de base de datos de clase db.t2.micro
  - 5 GB de almacenamiento
  - Backups automatizados activados con un periodo de retención de un día
