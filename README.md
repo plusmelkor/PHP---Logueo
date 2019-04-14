@@ -94,9 +94,8 @@ Nota22.- INT o INTEGER son 4 Bytes = 256e4
 
 -------------------------
 <table>
-<tr><th>Tipo de dato</th><th>Bytes</th><th>Valor mínimo</th><th>Valor máximo</th>
-</tr>
-+ TINYINT			1		0				255
+<tr><th>Tipo de dato</th><th>Bytes</th><th>Valor mínimo</th><th>Valor máximo</th></tr>
+<tr><td>TINYINT</td><td>1</td><td>0</td><td>255</tr>
 + SMALLINT		2		0				65535
 + MEDIUMINT		3		0				16777215
 + INT o INTEGER	4		0				4294967295
