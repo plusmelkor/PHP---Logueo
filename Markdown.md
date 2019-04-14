@@ -24,4 +24,6 @@ Nota 03.- Padre. the Perl IDE/editor
 Nota 04.- 
 Schedule
 --------
-1. Padre. Descarga e instalación de Padre.
+1. Padre. Descarga e instalación de Padre viene con Strawberry Perl version 5.12.3. [Download](http://code.google.com/p/padre-perl-ide/downloads/list)
+2. Python. Se puede elaborar Markdown en Python o en Ruby?
+
