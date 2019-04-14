@@ -143,13 +143,13 @@ Comando SCP
 Use FileZila para subir los archivos al servidor virtual.
 
 Nota31.- Amazon VPC es la capa de red de Amazon EC2. Capacidad de computación escalable. 
-	1.- Entornos informáticos virtuales, conocidos como instancias
-	2.- Imágenes de máquina de Amazon (AMI)
-	3.- Tipos de instancias
-	4.- Pares de claves (AWS almacena la clave pública y usted guarda la clave privada en un lugar seguro)
-	5.- Amazon Elastic Block Store (Amazon EBS), conocidos como volúmenes de Amazon EBS
-	6.- Grupos de seguridad
-	7.- Redes virtuales que puede crear que están aisladas lógicamente del resto de la nube de AWS y que, opcionalmente, puede conectar a su propia red, conocidas como nubes privadas virtuales (VPC)
+1. Entornos informáticos virtuales, conocidos como instancias
+2. Imágenes de máquina de Amazon (AMI)
+3. Tipos de instancias
+4. Pares de claves (AWS almacena la clave pública y usted guarda la clave privada en un lugar seguro)
+5. Amazon Elastic Block Store (Amazon EBS), conocidos como volúmenes de Amazon EBS
+6. Grupos de seguridad
+7. Redes virtuales que puede crear que están aisladas lógicamente del resto de la nube de AWS y que, opcionalmente, puede conectar a su propia red, conocidas como nubes privadas virtuales (VPC)
 
 Nota32.- ¿Como subir una aplicacion a una instancia Amazon EC2 para ser ejecutada en dicha instancia?
 Computacion en la nube.
