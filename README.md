@@ -94,11 +94,18 @@ Nota22.- INT o INTEGER son 4 Bytes = 256e4
 
 ## Tipo de dato	Bytes	Valor mínimo	Valor máximo
 
+-------------------------
+<table>
+    <tr>
+        <td>Foo</td>
+    </tr>
+</table>
 + TINYINT			1		0				255
 + SMALLINT		2		0				65535
 + MEDIUMINT		3		0				16777215
 + INT o INTEGER	4		0				4294967295
 + BIGINT			8		0				18446744073709551615
+-------------------------
 
 Elegimos en la columna Atributos el valor de UNSIGNED y este campo ya no podrá contener valores negativos, duplicando su capacidad de almacenamiento.
 
