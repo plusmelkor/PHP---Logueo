@@ -117,10 +117,10 @@ Nota26.- En create-db07.php implementamos el tipo de usuario como una columna en
 
 ## Schedule
 
-		 	+01: Creacion de Base de Datos - Nombre
-			+02: Creacion de Tabla - Nombre de la Tabla
-			+03: Creacion de Cinco Columnas - Nombres de Columna Especifico
-			+04: Codigo ubicado en el servidor
++ 01: Creacion de Base de Datos - Nombre
++ 02: Creacion de Tabla - Nombre de la Tabla
++ 03: Creacion de Cinco Columnas - Nombres de Columna Especifico
++ 04: Codigo ubicado en el servidor
 
 Nota27.- login01.js necesita jQuery. Sin este se produce un error en la consola.
 
