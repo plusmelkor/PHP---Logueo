@@ -96,10 +96,10 @@ Nota22.- INT o INTEGER son 4 Bytes = 256e4
 <table>
 <tr><th>Tipo de dato</th><th>Bytes</th><th>Valor mínimo</th><th>Valor máximo</th></tr>
 <tr><td>TINYINT</td><td>1</td><td>0</td><td>255</tr>
-+ SMALLINT		2		0				65535
-+ MEDIUMINT		3		0				16777215
-+ INT o INTEGER	4		0				4294967295
-+ BIGINT			8		0				18446744073709551615
+<tr><td>SMALLINT</td><td>2</td><td>0</td><td>65535</tr>
+<tr><td>MEDIUMINT</td><td>3</td><td>0</td><td>16777215</tr>
+<tr><td>INT o INTEGER</td><td>4</td><td>0</td><td>4294967295</tr>
+<tr><td>BIGINT</td><td>8</td><td>0</td><td>18446744073709551615</tr>
 </table>
 -------------------------
 
