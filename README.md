@@ -92,7 +92,6 @@ Nota21.- Version de PHP Version 7.2.10
 
 Nota22.- INT o INTEGER son 4 Bytes = 256e4
 
--------------------------
 <table>
 <tr><th>Tipo de dato</th><th>Bytes</th><th>Valor mínimo</th><th>Valor máximo</th></tr>
 <tr><td>TINYINT</td><td>1</td><td>0</td><td>255</tr>
