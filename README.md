@@ -155,14 +155,14 @@ Nota32.- ¿Como subir una aplicacion a una instancia Amazon EC2 para ser ejecuta
 Computacion en la nube.
 
 Nota33.- Entorno = Instancia en terminologia AWS
-Ejecutar base de datos MySQL
-Conexion con su base de datos
-Eliminacion de la base de datos
-Amazon Relational Database Service - Amazon RDS
-Capa Gratuita
-Consola de administración de AWS
-MySQL Workbench
-Paso 1:
+* Ejecutar base de datos MySQL
+* Conexion con su base de datos
+* Eliminacion de la base de datos
+* Amazon Relational Database Service - Amazon RDS
+* Capa Gratuita
+* Consola de administración de AWS
+* MySQL Workbench
+* Paso 1:
  - crear una instancia de base de datos MySQL
  - Instancia de base de datos de clase db.t2.micro
  - 5 GB de almacenamiento
