@@ -87,8 +87,8 @@ El ejemplo de 'Hola Mundo' es la invocacion a los dioses de la programacion y te
 * * prueba03
  * prueba04
  *	prueba05 - con tabulador
- - prueba06
- + prueba07
+- prueba06
++ prueba07
 
 
 
