@@ -83,6 +83,7 @@ El ejemplo de 'Hola Mundo' es la invocacion a los dioses de la programacion y te
 17. Algunos aspectos de la transformacion de un archivo MD en HTML es bastante simple de duplicar usando Ruby y Expresiones Regulares.
 
 * prueba01
+** prueba02
 
 
 
