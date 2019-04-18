@@ -49,7 +49,7 @@ print funciona de forma parecida a puts, pero siempre en la misma linea, es deci
 
 Un script en Perl, igual que en Bash y Python, debe contener como primera línea al shebang, el cual, indica qué interpretador será utilizado para ejecutar el script. En caso de que no la contenga se tiene que indicar qué intérprete es necesario a la hora de ejecutar el script.
 
-10. # Para los comentatios en una linea. A partir de la segunda linea posterior al Shebang.
+10. '#' Para los comentatios en una linea. A partir de la segunda linea posterior al Shebang.
 11. Creacion de un Modulo de Perl y Uso de un Modulo de Perl
 
 Un paquete Perl es un coleccion de codigo y un modulo Perl es un paquete definido en un archivo con el mismo nombre del paquete y que tiene al extension .pm. Un paquete vive en propio espacio de nombres. Lo que significa que dos diferentes modulos pueden contener una funcion o una variable con el mismo nombre.
