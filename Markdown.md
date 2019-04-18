@@ -80,7 +80,9 @@ El ejemplo de 'Hola Mundo' es la invocacion a los dioses de la programacion y te
 + Es / o varios, o
 + Es * o varios, o
 + Termina en cerradura de parentesis
-17. Algunos aspectos de la transformacion de un archivo MD en HTML es bastante simple de duplicar usando Ruby y Expresiones Regulares. 
+17. Algunos aspectos de la transformacion de un archivo MD en HTML es bastante simple de duplicar usando Ruby y Expresiones Regulares.
+
+* prueba01
 
 
 
